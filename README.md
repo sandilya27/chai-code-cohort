@@ -202,3 +202,22 @@ If applicable
 8. Merge after approval
 
 ---
+
+## Best Practices
+
+1. Regular Updates
+    - Pull from develop daily
+    - Keep branches up-to-date
+    - Resolve conflicts promptly
+2. Code Quality
+    - Write clear commit messages
+    - Keep commits focused and atomic
+    - Document significant changes
+3. Communication
+    - Comment on PRs promptly
+    - Ask questions when unclear
+    - Share knowledge with the team
+4. Branch Management
+    - Delete branches after merging
+    - Keep branches focused on single features
+    - Regularly clean up local branches
