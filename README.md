@@ -4,7 +4,6 @@
 
 Welcome aboard! This guide will walk you through everything you need to know about using Git and GitHub at **ChaiCode Cohort**. As a collaborative development platform, Git helps us maintain code quality, track changes, and work together efficiently.
 
----
 
 ## Basics of Git and GitHub
 
@@ -49,5 +48,21 @@ brew install git
 sudo apt-get update
 sudo apt-get install git
 ```
+
+### Initial Configuration
+
+Set up your identity:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@gmail.com"
+```
+
+### GitHub Account Setup
+
+1. Visit GitHub.com
+2. Click "Sign Up"
+3. Use your email address
+4. Complete the verification process
 
 ---
