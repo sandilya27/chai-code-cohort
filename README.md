@@ -133,3 +133,72 @@ git pull origin main
 | `git stash pop` | Apply stashed changes and remove from stash |
 
 ---
+
+## ChaiCode Workflow
+
+### Branch Naming Convention
+
+- `main` - Production-ready code
+- `develop` - Development branch
+- `feature/` - New features (e.g. `feature/user-authentication`)
+- `fix/` - Bug fixes (e.g. `fix/login-error`)
+- `docs/` - Documentation updates
+- `chore/` - Maintenance tasks
+
+### Commit Message Format
+
+```Bash
+<type>: <description>
+
+[optional body]
+
+[optional footer]
+```
+
+### Types
+
+- `feat`: - New features
+- `fix`: - Bug fixes
+- `docs`: - Documentation changes
+- `style`: - Formatting changes
+- `refactor`: - Code refactoring
+- `test`: - Adding/modifying tests
+- `chore`: - Maintenance tasks
+
+**Examples:**
+
+```bash
+feat: Add chai customization options
+fix: Resolve tea temperature calculation
+docs: Update brewing instructions
+```
+
+### Pull Request Process
+
+1. Create a new branch from `develop`
+2. Make your changes
+3. Push your branch
+4. Open a Pull Request on GitHub
+5. Fill in the PR template:
+
+```markdown
+## Description
+Brief description of changes
+
+## Type of Change
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Documentation update
+
+## Testing
+Steps to test the changes
+
+## Screenshots
+If applicable
+```
+
+6. Request reviews from team members
+7. Address review comments
+8. Merge after approval
+
+---
