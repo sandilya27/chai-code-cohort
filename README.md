@@ -35,11 +35,15 @@ GitHub is a **cloud-based** platform that provides a centralized location to sto
 git --version
 ```
 
+![github windows](./images/git%20window.png)
+
 #### macOS
 
 ```bash
 brew install git
 ```
+
+![github macOS](./images/git-mac.webp)
 
 #### Linux (Ubuntu/Debian)
 
@@ -47,6 +51,8 @@ brew install git
 sudo apt-get update
 sudo apt-get install git
 ```
+
+![github linux](./images/git-linux.png)
 
 ### Initial Configuration
 
@@ -63,6 +69,8 @@ git config --global user.email "your.email@gmail.com"
 2. Click "Sign Up"
 3. Use your email address
 4. Complete the verification process
+
+![github](./images/github.png)
 
 ---
 
@@ -110,6 +118,8 @@ git add index.js     # Add specific file
 ```bash
 git commit -m "feat: Add login with google"
 ```
+
+![github commit](./images/git-commit.png)
 
 - Push changes:
   
